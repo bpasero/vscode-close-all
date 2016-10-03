@@ -2,7 +2,7 @@
     "name": "close-all",
     "displayName": "Close All",
     "description": "Adds a close all button to the editor title",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "bpasero",
     "engines": {
         "vscode": "^1.5.0"
