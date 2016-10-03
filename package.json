@@ -3,7 +3,7 @@
     "displayName": "Close All",
     "description": "Adds a close all button to the editor title",
     "version": "1.0.0",
-    "publisher": "bpasero",
+    "publisher": "benjpas",
     "engines": {
         "vscode": "^1.5.0"
     },
