@@ -11,7 +11,7 @@
     "bugs": {
         "url": "https://github.com/bpasero/vscode-close-all/issues"
     },
-    "publisher": "benjpas",
+    "publisher": "rssowl",
     "engines": {
 		"vscode": "^1.36.0"
 	},
