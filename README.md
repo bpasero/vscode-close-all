@@ -13,11 +13,3 @@ This extension does not need any settings.
 ## Known Issues
 
 Currently it is not possible to show command actions for editor groups that are not active.
-
-## Release Notes
-
-Initial release.
-
-### 1.0.0
-
-Initial release
