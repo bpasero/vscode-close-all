@@ -2,7 +2,7 @@
     "name": "close-all",
     "displayName": "Close All",
     "description": "Adds a close all button to the editor title area",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "icon": "rssowl.png",
     "license": "MIT",
     "repository": {
