@@ -1,7 +1,7 @@
 {
     "name": "close-all",
-	"displayName": "Close All",
-	"description": "Adds a close all button to the editor title area",
+    "displayName": "Close All",
+    "description": "Adds a close all button to the editor title area",
     "version": "1.0.4",
     "icon": "rssowl.png",
     "license": "MIT",
@@ -14,8 +14,8 @@
     },
     "publisher": "rssowl",
     "engines": {
-		"vscode": "^1.36.0"
-	},
+        "vscode": "^1.36.0"
+    },
     "categories": [
         "Other"
     ],
@@ -28,10 +28,7 @@
             {
                 "command": "extension.closeAll",
                 "title": "Close All Editors in Group",
-                "icon": {
-                    "light": "./media/closeall.svg",
-                    "dark": "./media/closeall_inverse.svg"
-                }
+                "icon": "$(close-all)"
             }
         ],
         "menus": {
@@ -44,18 +41,18 @@
         }
     },
     "scripts": {
-		"vscode:prepublish": "yarn run compile",
-		"compile": "tsc -p ./",
-		"watch": "tsc -watch -p ./"
-	},
-	"devDependencies": {
-		"@types/glob": "^7.1.1",
-		"@types/mocha": "^5.2.6",
-		"@types/node": "^10.12.21",
-		"@types/vscode": "^1.36.0",
-		"glob": "^7.1.4",
-		"mocha": "^6.1.4",
-		"typescript": "^3.3.1",
-		"tslint": "^5.12.1"
-	}
+        "vscode:prepublish": "yarn run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./"
+    },
+    "devDependencies": {
+        "@types/glob": "^7.1.1",
+        "@types/mocha": "^5.2.6",
+        "@types/node": "^10.12.21",
+        "@types/vscode": "^1.36.0",
+        "glob": "^7.1.4",
+        "mocha": "^6.1.4",
+        "typescript": "^3.3.1",
+        "tslint": "^5.12.1"
+    }
 }
