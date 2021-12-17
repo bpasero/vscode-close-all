@@ -2,7 +2,7 @@
     "name": "close-all",
     "displayName": "Close All",
     "description": "Adds a close all button to the editor title area",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "icon": "rssowl.png",
     "license": "MIT",
     "repository": {
@@ -19,14 +19,10 @@
     "categories": [
         "Other"
     ],
-    "activationEvents": [
-        "onCommand:extension.closeAll"
-    ],
-    "main": "./out/src/extension",
     "contributes": {
         "commands": [
             {
-                "command": "extension.closeAll",
+                "command": "workbench.action.closeEditorsInGroup",
                 "title": "Close All Editors in Group",
                 "icon": "$(close-all)"
             }
@@ -34,7 +30,7 @@
         "menus": {
             "editor/title": [
                 {
-                    "command": "extension.closeAll",
+                    "command": "workbench.action.closeEditorsInGroup",
                     "group": "navigation"
                 }
             ]
@@ -46,13 +42,16 @@
         "watch": "tsc -watch -p ./"
     },
     "devDependencies": {
-        "@types/glob": "^7.1.1",
-        "@types/mocha": "^5.2.6",
-        "@types/node": "^10.12.21",
-        "@types/vscode": "^1.36.0",
-        "glob": "^7.1.4",
-        "mocha": "^6.1.4",
-        "typescript": "^3.3.1",
-        "tslint": "^5.12.1"
-    }
+		"@types/vscode": "^1.63.0",
+		"@types/glob": "^7.1.4",
+		"@types/mocha": "^9.0.0",
+		"@types/node": "14.x",
+		"@typescript-eslint/eslint-plugin": "^5.1.0",
+		"@typescript-eslint/parser": "^5.1.0",
+		"eslint": "^8.1.0",
+		"glob": "^7.1.7",
+		"mocha": "^9.1.3",
+		"typescript": "^4.4.4",
+		"@vscode/test-electron": "^1.6.2"
+	}
 }
