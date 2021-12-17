@@ -36,11 +36,6 @@
             ]
         }
     },
-    "scripts": {
-        "vscode:prepublish": "yarn run compile",
-        "compile": "tsc -p ./",
-        "watch": "tsc -watch -p ./"
-    },
     "devDependencies": {
         "@types/glob": "^7.1.4",
         "@types/mocha": "^9.0.0",
